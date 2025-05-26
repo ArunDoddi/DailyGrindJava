@@ -22,7 +22,7 @@ public class ValidPalindrome_0ms {
             }
             while (j>=0 && !((ch[j]>='A' &&  ch[j]<='Z') || (ch[j]>='0' && ch[j]<='9') || (ch[j]>='a' && ch[j]<='z')))
             {
-                j--;
+                j++;
             }
 
             if (i>=j) return true;
