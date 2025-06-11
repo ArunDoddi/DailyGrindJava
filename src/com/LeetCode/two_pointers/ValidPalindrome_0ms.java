@@ -8,7 +8,7 @@ public class ValidPalindrome_0ms {
         System.out.println(isPalindrome_0ms(s));
     }
 
-    private static boolean isPalindrome_0ms(String s) {
+    public static boolean isPalindrome_0ms(String s) {
         char[] ch = s.toCharArray();
         System.out.println(Arrays.toString(ch));
 
